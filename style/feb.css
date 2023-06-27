@@ -1,0 +1,70 @@
+.nav-link{
+            font-weight: 500;
+        }
+        .active{
+            background-color: #637782;
+            border-radius: 50px;
+            color: white !important;
+        }
+        .nav-linkk{
+            padding-top: 0;
+            padding-bottom: 3px;
+            padding-left:20px !important;
+            padding-right:20px !important;
+        }
+        .nl{
+            padding-top: 0;
+            padding-bottom: 3px;
+        }
+
+        .head{
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(rgba(20, 20, 20, 0.24), rgba(8, 8, 8, 0.288)), url('../assets/ukm/img-bg-main.jpg') no-repeat center center fixed;
+            /* background: url('assets/ukm/img-bg-main.jpg') center bottom no-repeat; */
+            background-size: cover;
+            position: absolute;
+            color: white;
+        }
+        /* body {
+            overflow: hidden;
+        } */
+        .h-1{
+            font-size: 33px;
+            margin-top: 200px;
+            font-weight: 700;
+        }
+        .ph-1{
+            font-size: 20px;
+        }
+
+
+/* Page UKM */
+.ukm, .detail-ukm{
+margin-top: 80px;
+margin-bottom: 120px;
+}
+
+.ukm-1{
+    font-size: 33px;    
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.card-img-top{
+    width: 80%;
+    margin-top:20px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Detail UKM */
+.singkatan-ukm{
+    font-weight:700;
+    font-size:20px;
+}
+.desk-ukm{
+    text-align: justify;
+    font-size:16px;
+}
