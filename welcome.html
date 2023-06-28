@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HISTORI PENDAFTARAN MAHASISWA</title>
+    <title>DASHBOARD</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="shortcut icon" href="/assets/ukm/logo-ukmku.png" type="image/x-icon">
     <link rel="stylesheet" href="/style/feb.css">
@@ -37,6 +37,8 @@
                     Febryan
                 </a>
                 <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                    <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="#">Logout</a></li>
                 </ul>
                 </li>
@@ -45,33 +47,47 @@
         </div>
     </nav>
 
-    <div class="container ukm">
-        <h2 class="text-center fw-bold mb-5">Daftar Histori Pendaftaran UKM UMI</h2>
-        <div class="card mb-3">
-            <div class="card-body d-flex justify-content-between">
-                <div><strong style="font-size: 18px;">Febryan</strong> <br> Diafragma</div>
-                <div class="d-flex justify-content-center align-items-center">
-                    <a class="detail" href="#">Detail</a>
-                </div>
+    <div class="container profile">
+        <div class="text-center">
+            <img src="assets/ukm/avatar-1.jpg" alt="User" class="img-round">
+            <p class="h2 mt-2 mb-2">Febryan</p>
+            <small><span class="badge text-bg-success">Admin Utama</span></small>
+        </div>
+    </div>
+
+    <div class="container" style="margin-bottom: 120px;">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+            <ul class="nav nav-tabs justify-content-center" role="tablist">
+                <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#welcome">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#profile">Data Admin UKM</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#contact">Data User</a>
+                </li>
+            </ul>
             </div>
         </div>
-        <div class="card mb-3">
-            <div class="card-body d-flex justify-content-between">
-                <div><strong style="font-size: 18px;">Febryan</strong> <br> Diafragma</div>
-                <div class="d-flex justify-content-center align-items-center">
-                    <a class="detail" href="#">Detail</a>
-                </div>
+
+        <div class="tab-content mt-4">
+            <div class="tab-pane fade show active" id="welcome">
+            <h3>Selamat Datang</h3>
+            <p style="font-size: large;">Sistem Informasi Pendaftaran UKM UMI</p>
+            </div>
+            <div class="tab-pane fade" id="profile">
+            <h3>Profile Content</h3>
+            <p>This is the content of the Profile tab.</p>
+            </div>
+            <div class="tab-pane fade" id="contact">
+            <h3>Contact Content</h3>
+            <p>This is the content of the Contact tab.</p>
             </div>
         </div>
-        <div class="card mb-3">
-            <div class="card-body d-flex justify-content-between">
-                <div><strong style="font-size: 18px;">Febryan</strong> <br> Diafragma</div>
-                <div class="d-flex justify-content-center align-items-center">
-                    <a class="detail" href="#">Detail</a>
-                </div>
-            </div>
-        </div>
-  </div>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
